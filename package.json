@@ -1,0 +1,13 @@
+{
+    "name": "testig",
+    "main": "./src/server.js",
+    "config": {
+        "port": "8080"
+    },
+    "scripts": {
+        "start": "node ./src/dataParser.js"
+    },
+    "dependencies": {
+        "csv-parser": "^3.0.0"
+    }
+}
