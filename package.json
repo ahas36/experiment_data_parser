@@ -5,9 +5,11 @@
         "port": "8080"
     },
     "scripts": {
-        "start": "node ./src/dataParser.js"
+        "csv-parser": "node ./src/dataParser.js",
+        "monogo-extractor": "node ./src/mongoClient.js"
     },
     "dependencies": {
-        "csv-parser": "^3.0.0"
+        "csv-parser": "^3.0.0",
+        "mongodb": "^4.0.0"
     }
 }
